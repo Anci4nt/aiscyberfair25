@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalpavriksh Cyberfair'2025</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1de96;
+      color: white;
+  }
+  .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: darkkhaki;
+      padding: 20px;
+      
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .footer-logo img {
+      width: 80px;
+      transition: transform 0.3s;
+  }
+  .footer-logo img:hover {
+      transform: scale(1.1);
+  }
+  .footer-images {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+  }
+  .footer-images img {
+      width: 100%;
+      margin: 0 10px;
+      border-radius: 10px;
+      transition: transform 0.3s, opacity 0.3s;
+  }
+  .footer-images img:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+  }
+  .footer-icons {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+  }
+  .footer-icons a {
+      color: white;
+      font-size: 24px;
+      margin: 0 10px;
+      transition: transform 0.3s, color 0.3s;
+  }
+  .footer-icons a:hover {
+      transform: scale(1.2);
+      color: #ff6600;
+  }
+  .footer-text {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: center;
+      color: black;
+  }
+</style>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+          <a href="#" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mountain">
+              <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+            </svg>
+            <span>Kalpavriksh</span>
+          </a>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="schoolini.html" class="nav-link">School Initiatives</a></li>
+            <li class="dropdown">
+                <a href="domains.html" class="nav-link">Domain ▼</a>
+                <ul class="dropdown-menu">
+                  <li><a href="socialarchitects.html" class="dropdown-item">Social Architects</a></li>
+                  <li><a href="healthrevo.html" class="dropdown-item">Health Revolutionaries</a></li>
+                  <li><a href="buisnesstitans.html" class="dropdown-item">Buisness Titans</a></li>
+                  <li><a href="ecoimpact.html" class="dropdown-item">Eco Impact</a></li>
+                  <li><a href="tourismboost.html" class="dropdown-item">Tourism Boost</a></li>
+                  <li><a href="empoweringcomm.html" class="dropdown-item">Empowering Community</a></li>
+                </ul>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link">More ▼</a>
+              <ul class="dropdown-menu">
+                <li><a href="commconnect.html" class="dropdown-item">Community Connect</a></li>
+                <li><a href="survery.html" class="dropdown-item">Survey</a></li>
+                <li><a href="ourlearning.html" class="dropdown-item">Our Learnings</a></li>
+                <li><a href="biblography.html" class="dropdown-item">Biblography</a></li>
+                <li><a href="websiteguide.html" class="dropdown-item">Website Guide</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="nav-link contact-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <!-- <h1>Kalpavriksh</h1>
+      <p>extending a helping hand to build stronger communities</p> -->
+      <center>
+      <button class="scroll-btn" id="scrollBtn" aria-label="Scroll down">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-down">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </button>
+    </center>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <section class="content" id="content">
+    <div class="container">
+      <h2>"From vision to action, from innovation to impact—shaping a future where progress knows no limits."</h2>
+      <div class="bg-white min-h-screen font-sans flex flex-col items-center justify-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="lg:grid lg:grid-cols-12 lg:gap-8 pt-12 lg:pt-0">
+            <div class="md:max-w-2xl md:mx-auto lg:col-span-6 lg:flex lg:items-center">
+            </div>
+            <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
+              <div class="flex flex-col sm:flex-row justify-between items-start space-y-6 sm:space-y-0">
+                <p class="text-base text-gray-600 sm:text-lg lg:text-xl sm:w-1/2 sm:pr-8">
+                  At Aravali International School, we believe in nurturing not only young minds but also a sustainable future for our planet. As an organization, we are committed to using knowledge, action, and creativity to foster a cleaner, greener environment. From waste segregation initiatives and tree planting campaigns to promoting the use of renewable energy, we lead by example to encourage environmentally responsible behavior within our academic community.
+                </p>
+                <p class="text-base text-gray-600 sm:text-lg lg:text-xl sm:w-1/2 sm:pl-8">
+                  Our students actively participate in recycling programs, environmental awareness initiatives, and clean-up drives, fostering a sense of responsibility for the environment. We integrate sustainability into our curriculum to help students understand the importance of conservation and prepare them to be future environmental leaders. At Aravali International School, we are not just building brighter futures; we are shaping a better world.
+                </p>
+              </div>
+              <div class="mt-12">
+                <div class="grid grid-cols-3 gap-6 sm:gap-6 xl:gap-8">
+                  <div class="text-center sm:flex sm:items-center sm:justify-center">
+                  </div>
+                  <div class="text-center sm:flex sm:items-center sm:justify-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-logo">
+        <img src="data/logo.png" alt="Logo">
+    </div>
+    <div class="footer-images">
+        <img src="data/cyberfair3.jpg" alt="Image 1">
+        <img src="data/cyberfairimg2.png" alt="Image 2">
+    </div>
+    <div class="footer-icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+    </div>
+    <div class="footer-text">
+        &copy;This work (unless where otherwise noted) is licensed under Creative Commons Attribution 4.0 International Law.
+    </div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

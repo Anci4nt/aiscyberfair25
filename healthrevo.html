@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalpavriksh Cyberfair'2025</title>
+  <link rel="stylesheet" href="css/healthrevo.css">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+  
+.split-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.text-part.left {
+    transform: translateX(-150%);
+    animation-name: slide-in-left;
+}
+
+.text-part.right {
+    transform: translateX(150%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Typewriter */
+
+.typewriter {
+            white-space: pre-wrap;
+            overflow: hidden;
+            font-size: 1.5rem;
+            max-width: 80%;
+            position: relative;
+            display: inline-block;
+        }
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 1.5rem;
+            background-color: white;
+            margin-left: 2px;
+            animation: blink 0.8s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        .typewriter-text {
+          justify-content: center;
+        }
+
+        #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Keeps particles behind other content */
+}
+
+</style>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+          <a href="#" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mountain">
+              <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+            </svg>
+            <span>Kalpavriksh</span>
+          </a>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="schoolini.html" class="nav-link">School Initiatives</a></li>
+            <li class="dropdown">
+                <a href="domains.html" class="nav-link">Domain ▼</a>
+                <ul class="dropdown-menu">  
+                  <li><a href="socialarchitects.html" class="dropdown-item">Social Architects</a></li>
+                  <li><a href="healthrevo.html" class="dropdown-item">Health Revolutionaries</a></li>
+                  <li><a href="buisnesstitans.html" class="dropdown-item">Buisness Titans</a></li>
+                  <li><a href="ecoimpact.html" class="dropdown-item">Eco Impact</a></li>
+                  <li><a href="tourismboost.html" class="dropdown-item">Tourism Boost</a></li>
+                  <li><a href="empoweringcomm.html" class="dropdown-item">Empowering Community</a></li>
+                </ul>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link">More ▼</a>
+              <ul class="dropdown-menu">
+                <li><a href="commconnect.html" class="dropdown-item">Community Connect</a></li>
+                <li><a href="survery.html" class="dropdown-item">Survey</a></li>
+                <li><a href="ourlearning.html" class="dropdown-item">Our Learnings</a></li>
+                <li><a href="biblography.html" class="dropdown-item">Biblography</a></li>
+                <li><a href="websiteguide.html" class="dropdown-item">Website Guide</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="nav-link contact-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <!-- <h1>Kalpavriksh</h1>
+      <p>extending a helping hand to build stronger communities</p> -->
+      <center>
+      <button class="scroll-btn" id="scrollBtn" aria-label="Scroll down">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-down">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </button>
+    </center>
+    </div>
+    <div class="hero-overlay"></div> 
+  </section>
+
+  <section class="content" id="content">
+    <div class="container">
+      <h2>"Redefining well-being with knowledge and innovation, because a healthier world is a stronger world.</h2>
+      <div class="split-text-container">
+        <span class="text-part left">Surya Praksh</span>
+        <span class="text-part right">Hospital</span>
+    </div>    
+    <div class="typewriter-text">
+    <p class="typewriter"><span id="text"></span><span class="cursor"></span></p>
+  </div>
+    </div>
+  </section>
+
+ 
+  <script src="script.js"></script>
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const text = `Surya Prakash Hospital is a part of the esteemed Bharat Vikas Parishad, a national organization founded in 1963 by a group of intellectuals and dedicated individuals inspired by the principles of Swami Vivekananda. 
+            
+With over 1,500 branches and more than 40 medical centers across India, Bharat Vikas Parishad is committed to serving society through various social welfare initiatives. The Bharat Vikas Parishad Social Welfare Trust in Faridabad is registered under Section 12 A and the Societies and Trust Registration Act (under 80G), ensuring it operates as a registered body to provide vital social services.
+
+The hospital is recognized for its exceptional treatment, family-oriented atmosphere, and state-of-the-art medical facilities, attracting top consultants and professionals in the medical field. All medical staff at Surya Prakash Hospital are board-certified and possess extensive training in their areas of expertise. Many of the consultant physicians are also internationally renowned. The hospital adheres to a Clinical Governance framework to ensure the highest standards of patient care. Additionally, the nursing staff is fully qualified and registered with the Nursing Council.`;
+            
+            const textContainer = document.getElementById("text");
+            const cursor = document.querySelector(".cursor");
+            let index = 0;
+            function type() {
+                if (index < text.length) {
+                    textContainer.textContent += text[index];
+                    index++;
+                    setTimeout(type, 20);
+                } else {
+                    cursor.style.display = "none";
+                }
+            }
+            type();
+        });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const textParts = document.querySelectorAll(".text-part");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        { threshold: 0.5 } 
+    );
+
+    textParts.forEach((text) => observer.observe(text));
+});
+
+</script>
+
+</body>
+</html>
